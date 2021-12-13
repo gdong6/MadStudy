@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".section.contact.activity.GroupContactManageActivity">
+
+    <com.hyphenate.easeui.widget.EaseTitleBar
+        android:id="@+id/title_bar_group_contact"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/em_common_title_bar_height"
+
+        app:titleBarTitle="@string/em_friends_group_contact_title"
+        app:titleBarDisplayHomeAsUpEnabled="true"
+        app:titleBarRightImage="@drawable/em_home_menu_add"
+        app:titleBarRightVisible="true"/>
+
+    <com.hyphenate.easeui.widget.EaseSearchTextView
+        android:id="@+id/search_group"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/em_common_search_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_bar_group_contact"
+        android:hint="@string/em_group_list_search_hint"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tl_group_contact"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_group"
+        android:layout_marginTop="8dp"
+        app:tabIndicatorColor="@color/em_color_brand"
+        app:tabIndicatorHeight="2dp"
+        app:tabSelectedTextColor="@color/em_color_brand"
+        app:tabTextColor="@color/em_color_common_text_black"
+        app:tabTextAppearance="@style/AppTheme.TabLayout" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_group_contact"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <FrameLayout
+        android:id="@+id/fl_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group_join"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="tl_group_contact,vp_group_contact"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="@dimen/adaptive_100dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="@dimen/em_margin_10"
+        android:layout_height="@dimen/adaptive_60dp">
+        <Button
+            android:id="@+id/tv_node"
+            android:layout_width="match_parent"
+            android:text="note"
+            android:background="@drawable/demo_login_btn_bg"
+            android:layout_height="@dimen/em_margin_40"></Button>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/demo_conference_member_cover">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="450dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="@dimen/em_margin_10" >
+
+        <Button
+            android:id="@+id/tv_leave"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/demo_login_btn_bg"
+            android:text="leave"></Button>
+
+        <ImageView
+            android:layout_width="@dimen/em_margin_30"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_clock"></ImageView>
+
+
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"></TextView>
+        <Button
+            android:id="@+id/backgroundImageChangeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/em_margin_40"
+            android:background="@drawable/demo_login_btn_bg"
+            android:text="Change Background"
+            android:textSize="@dimen/dp_10"></Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>

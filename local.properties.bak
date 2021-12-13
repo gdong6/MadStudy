@@ -1,0 +1,40 @@
+## This file must *NOT* be checked into Version Control Systems,
+# as it contains information specific to your local configuration.
+#
+# Location of the SDK. This is only used by Gradle.
+# For customization when using a Version Control System, please read the
+# header note.
+#Mon Jul 12 18:25:52 CST 2021
+#VIVO_PUSH_APPKEY=1c1230bc2c54a6d078bc69a8b6d7807d
+#MEIZU_PUSH_APPID=134952
+#MI_PUSH_APPID=2882303761517426801
+#OPPO_PUSH_APPSECRET=cd93056d03e1418eaa6c3faf10fd7537
+#FCM_SENDERID=782795210914
+#BAIDU_LOCATION_APPKEY=3ecea51f560650b1ed8a4b99808f52e8
+#OPPO_PUSH_APPKEY=0bb597c5e9234f3ab9f821adbeceecdb
+#MEIZU_PUSH_APPKEY=f00e7e8499a549e09731a60a4da399e3
+#MI_PUSH_APPKEY=5381742660801
+#VIVO_PUSH_APPID=104510674
+#EASEMOB_APPKEY=easemob-demo\#easeim
+
+VIVO_PUSH_APPKEY=1c1230bc2c54a6d078bc69a8b6d7807d
+MEIZU_PUSH_APPID=134952
+OPPO_PUSH_APPSECRET=cd93056d03e1418eaa6c3faf10fd7537
+MI_PUSH_APPID=2882303761517426801
+FCM_SENDERID=782795210914
+DEBUG_KEY_PASSWORD=easemob
+DEBUG_STORE_FILE_PATH=../../emclient-android/hyphenate.keystore
+BAIDU_LOCATION_APPKEY=3ecea51f560650b1ed8a4b99808f52e8
+DEBUG_KEY_ALIAS=easemob
+OPPO_PUSH_APPKEY=0bb597c5e9234f3ab9f821adbeceecdb
+MEIZU_PUSH_APPKEY=f00e7e8499a549e09731a60a4da399e3
+DEBUG_STORE_PASSWORD=easemob
+MI_PUSH_APPKEY=5381742660801
+EASEMOB_APPKEY=easemob-demo#easeim
+#EASEMOB_APPKEY=easemob-demo#chatdemoui
+#EASEMOB_APPKEY=easemob-demo#testmd1
+VIVO_PUSH_APPID=104510674
+sdk.dir=D\:\\worksoft\\sdk
+#ndk.dir=D\:\\worksoft\\sdk\\ndk\\20.0.5594570
+ndk.dir=D\:\\worksoft\\sdk\\ndk\\android-ndk-r17c
+

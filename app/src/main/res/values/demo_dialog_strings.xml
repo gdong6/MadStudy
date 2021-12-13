@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="em_dialog_btn_cancel">Cancel</string>
+    <string name="em_dialog_btn_confirm">Confirm</string>
+    <string name="em_dialog_btn_confirm_warning">Confirm Transfer</string>
+</resources>

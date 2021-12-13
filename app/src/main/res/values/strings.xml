@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="em_main_nav_title_study_room">Study Room</string>
+
+
+
+    <string name="app_version">Version</string>
+
+    <string name="empty_info">Empty</string>
+    <string name="main_empty_info">No Notes</string>
+    <string name="recycle_empty_info">Trash is empty</string>
+
+    <string name="search_txv_main">Search</string>
+
+    <string name="location">Getting Location</string>
+
+    <string name="msg">message</string>
+    <string name="hint">something</string>
+    <string name="no_btn">Cancel</string>
+    <string name="yes_btn">Confirm</string>
+
+    <string name="all_nav">All</string>
+    <string name="other_nav">Others</string>
+    <string name="folder_nav">All</string>
+    <string name="recycle_nav">Recently delete</string>
+    <string name="security_nav">privacy</string>
+    <string name="about_nav">About</string>
+    <string name="exit_nav">Exit SimpleNote</string>
+
+
+    <string name="title_recycle">recently deleted</string>
+    <string name="move_recycle">move to recently deleted</string>
+    <string name="info_recycle">notes will be permanently deleted after 30 days</string>
+    <string name='recovery_recycle'>reopen after restore</string>
+
+    <string name="title_create">title</string>
+    <string name="content_share">share</string>
+    <string name="date_create">time</string>
+    <string name="number_create">Word count</string>
+    <string name="location_create">location is not available</string>
+    <string name="done_create">complete</string>
+
+    <string name="title_sec">security</string>
+    <string name="info_sec">Enter password</string>
+    <string name="key9_sec">9</string>
+    <string name="key8_sec">8</string>
+    <string name="key7_sec">7</string>
+    <string name="key6_sec">6</string>
+    <string name="key5_sec">5</string>
+    <string name="key4_sec">4</string>
+    <string name="key3_sec">3</string>
+    <string name="key2_sec">2</string>
+    <string name="key1_sec">1</string>
+    <string name="key0_sec">0</string>
+
+    <string name="cancel_sec">delete</string>
+    <string name="findPassword_sec">Forget password?</string>
+
+    <string name="comfirm_t_sec">Verification</string>
+    <string name="set_t_sec">Set password</string>
+    <string name="reset_t_sec">Reset password</string>
+    <string name="forget_sec">Desperate</string>
+
+    <string name="clear_sec">Clear password</string>
+    <string name="defeat_sec">Verification failed</string>
+    <string name="wrong_sec">password incorrect</string>
+    <string name="agian_sec">Enter password again</string>
+    <string name="comfirm_sec">Confirm again</string>
+    <string name="done_sec">Password has already been set</string>
+    <string name="diffrent_sec">Password does not match</string>
+    <string name="input_sec">Enter password</string>
+
+    <string name="hint_quick">Write...</string>
+    <string name="location_quick">Where are you?</string>
+
+    <string name="about">About</string>
+    <string name="author_about">Author</string>
+    <string name="other_about">Others</string>
+    <string name="main_about">\n</string>
+    <string name="t1_table">Share app to others</string>
+    <string name="t2_table">check recent history</string>
+
+    <string name="info_about"> </string>
+    <string name="more_about"> </string>
+    <string name="bottom_about"> </string>
+
+    <string name="update_his">Update history</string>
+    <string name="content_his">
+
+    </string>
+
+    <string name="back_wel">Welcome back</string>
+    <string name="info_wel"> </string>
+    <string name="bottom_wel">SimpleNote</string>
+
+    <string name="share">Share</string>
+    <string name="shareFrom">Share from simple note</string>
+    <string name="shareApp">Share app</string>
+    <string name="shareTo">Share to</string>
+    <string name="shareImg">Share image</string>
+
+    <string name="howShare">How do you want to share your image</string>
+    <string name="imgShare">screenshot share</string>
+    <string name="textShare">share text</string>
+
+    <string name="title_des">The first time uses notes</string>
+    <string name="content_des">Thank you!</string>
+</resources>
